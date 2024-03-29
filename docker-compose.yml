@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  db:
+    image: postgres
+    container_name: portfolio-postgres-container
+    environment:
+      POSTGRES_PASSWORD: password
+    ports:
+      - '5433:5432'
