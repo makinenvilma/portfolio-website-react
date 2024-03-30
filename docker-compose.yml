@@ -5,6 +5,18 @@ services:
     image: postgres
     container_name: postgres-container
     environment:
-      POSTGRES_PASSWORD: password
+      DB_HOST: localhost
+      DB_PASSWORD: password
     ports:
       - '5433:5432'
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    environment:
+      - NODE_ENV=production
+    ports:
+      - '5000:5000'
+    depends_on:
+      - db
