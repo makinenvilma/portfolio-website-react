@@ -3,7 +3,7 @@ version: '3'
 services:
   db:
     image: postgres
-    container_name: portfolio-postgres-container
+    container_name: postgres-container
     environment:
       POSTGRES_PASSWORD: password
     ports:
