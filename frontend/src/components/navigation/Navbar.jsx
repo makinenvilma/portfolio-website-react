@@ -20,28 +20,28 @@ function Navbar() {
       <header className='App-header'>
         <nav className={`${styles.navbar}`}>
           {/* logo */}
-          <a href='#home' className={`${styles.logo}`}>
+          <a href='/' className={`${styles.logo}`}>
             Dev.{' '}
           </a>
 
           <ul className={`${styles.navMenu} ${isActive ? styles.active : ''}`}>
             <li onClick={removeActive}>
-              <a href='#home' className={`${styles.navLink}`}>
+              <a href='/' className={`${styles.navLink}`}>
                 Home
               </a>
             </li>
             <li onClick={removeActive}>
-              <a href='#home' className={`${styles.navLink}`}>
+              <a href='/about' className={`${styles.navLink}`}>
                 About Me
               </a>
             </li>
             <li onClick={removeActive}>
-              <a href='#home' className={`${styles.navLink}`}>
+              <a href='/projects' className={`${styles.navLink}`}>
                 Projects
               </a>
             </li>
             <li onClick={removeActive}>
-              <a href='#home' className={`${styles.navLink}`}>
+              <a href='/contact' className={`${styles.navLink}`}>
                 Contact
               </a>
             </li>
