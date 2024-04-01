@@ -1,14 +1,14 @@
 import React from 'react';
-import '../App.css';
+import './index.css';
 
 const Home = () => {
   return (
     <div>
-      <header>
-        <h1>Welcome to My Home Page</h1>
-      </header>
+      <header></header>
       <main>
-        <p>This is a test.</p>
+        <div class='info-text'>
+          <h1>A Software Developer</h1>
+        </div>
       </main>
       <footer>
         <p>&copy; 2024 My Portfolio</p>

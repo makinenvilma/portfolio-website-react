@@ -17,13 +17,22 @@ main {
   color: #221e2c;
 }
 
-/* Footer styles */
-footer {
-  background-color: #fefefe;
-  color: #8e8e8e;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  padding: 20px;
+/* Info box styles */
+
+.info-text {
+  background-color: #fafafa;
+}
+
+h1 {
+  position: absolute;
+  right: 500px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 780px) {
+  h1 {
+    position: absolute;
+    left: 20px;
+  }
 }
