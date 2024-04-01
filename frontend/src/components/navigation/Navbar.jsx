@@ -22,7 +22,7 @@ function Navbar() {
           {/* logo */}
           <a href='/' className={`${styles.logo}`}>
             <img
-              src='https://em-content.zobj.net/source/apple/271/purple-heart_1f49c.png'
+              src='https://cdn-icons-png.flaticon.com/512/46/46105.png'
               alt='Logo'
             />
           </a>

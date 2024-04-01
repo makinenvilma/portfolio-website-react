@@ -10,7 +10,7 @@ const Home = () => {
           <div class='info-flex-container'>
             <div class='info-flex-container-image'>
               <img
-                src='https://source.unsplash.com/random/320x240'
+                src='https://cdn.discordapp.com/attachments/902806118156357653/1224452741137432727/vikitteleva_koira-removebg-preview_1.png?ex=661d8b7a&is=660b167a&hm=c5566d3d260a5da04e618b8b7a1ebcbc3b4e16f50c47c1f3063f7a6d9a4cf8de&'
                 alt='Example'
               ></img>
             </div>
