@@ -25,24 +25,54 @@ main {
   justify-content: center;
   align-items: center;
   gap: 30px;
+  padding-top: 60px;
 }
 
 .info-flex-container-text p {
   color: #8e8e8e;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-/* media queries */
+/*Info box button styles */
+.info-flex-container button {
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  color: #221e2c;
+  font-family: 'Inter var', ui-sans-serif, system-ui, -apple-system, system-ui,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  text-decoration: none #d1d5db solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
 
+/* Media queries */
 @media screen and (max-width: 780px) {
+  /* Info box styles */
   .info-flex-container {
     display: flex;
     background-color: #fafafa;
-    flex-direction: column;
-    justify-content: center; /* Center items vertically */
-    align-items: center; /* Center items horizontally */
-    gap: 30px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
   }
+
   .info-flex-container-text p {
     color: #8e8e8e;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
