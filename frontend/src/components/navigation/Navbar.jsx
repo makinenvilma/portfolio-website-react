@@ -21,7 +21,10 @@ function Navbar() {
         <nav className={`${styles.navbar}`}>
           {/* logo */}
           <a href='/' className={`${styles.logo}`}>
-            Dev.{' '}
+            <img
+              src='https://em-content.zobj.net/source/apple/271/purple-heart_1f49c.png'
+              alt='Logo'
+            />
           </a>
 
           <ul className={`${styles.navMenu} ${isActive ? styles.active : ''}`}>
