@@ -9,7 +9,7 @@ services:
       DB_PASSWORD: password
       DB_NAME: db
     ports:
-      - '543:5432'
+      - '5433:5432'
     restart: always
     volumes:
       - /var/lib/postgresql/data:/var/lib/postgresql/data
