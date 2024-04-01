@@ -1,5 +1,5 @@
 -- Create table to store projects
-CREATE TABLE projects (
+CREATE TABLE IF NOT EXISTS projects (
     id INT AUTO_INCREMENT PRIMARY KEY,
     project_name VARCHAR(255) NOT NULL,
     description TEXT,
