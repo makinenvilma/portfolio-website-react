@@ -18,21 +18,23 @@ main {
 }
 
 /* Info box styles */
-
-.info-text {
+.info-flex-container {
+  display: flex;
   background-color: #fafafa;
-}
-
-h1 {
-  position: absolute;
-  right: 500px;
+  flex-direction: horizontal;
+  justify-content: center;
+  gap: 30px;
 }
 
 /* media queries */
 
 @media screen and (max-width: 780px) {
-  h1 {
-    position: absolute;
-    left: 20px;
+  .info-flex-container {
+    display: flex;
+    background-color: #fafafa;
+    flex-direction: column;
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    gap: 30px;
   }
 }

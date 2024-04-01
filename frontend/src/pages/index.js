@@ -6,8 +6,19 @@ const Home = () => {
     <div>
       <header></header>
       <main>
-        <div class='info-text'>
-          <h1>A Software Developer</h1>
+        <div class='info-box'>
+          <div class='info-flex-container'>
+            <div class='info-flex-container-image'>
+              <img
+                src='https://source.unsplash.com/random/320x240'
+                alt='Example'
+              ></img>
+            </div>
+            <div class='info-flex-container-title'>
+              <h1>A Software Developer</h1>
+              <p>This is a test.</p>
+            </div>
+          </div>
         </div>
       </main>
       <footer>
