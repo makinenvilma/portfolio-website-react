@@ -14,7 +14,7 @@ const Home = () => {
                 alt='Example'
               ></img>
             </div>
-            <div class='info-flex-container-title'>
+            <div class='info-flex-container-text'>
               <h1>A Software Developer</h1>
               <p>This is a test.</p>
             </div>
