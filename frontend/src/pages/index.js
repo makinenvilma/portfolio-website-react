@@ -21,6 +21,13 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <div class='skill-box'>
+          <div class='skill-flex-container'>
+            <div>Test1</div>
+            <div>Test2</div>
+            <div>Test3</div>
+          </div>
+        </div>
       </main>
       <footer>
         <p>&copy; 2024 My Portfolio</p>
