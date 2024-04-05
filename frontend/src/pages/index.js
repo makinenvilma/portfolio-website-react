@@ -28,13 +28,16 @@ const Home = () => {
         <div class='skill-box'>
           <div class='skill-flex-container'>
             <div class='skill-flex-container-text'>
-              <p>Test1</p>
+              <h3>Frontend</h3>
+              <p>This is the test number one.</p>
             </div>
             <div class='skill-flex-container-text'>
-              <p>Test2</p>
+              <h3>Backend</h3>
+              <p>This is the test number two.</p>
             </div>
             <div class='skill-flex-container-text'>
-              <p>Test3</p>
+              <h4>UI/UX</h4>
+              <p>This is the test number three.</p>
             </div>
           </div>
         </div>
