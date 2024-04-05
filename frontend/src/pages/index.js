@@ -28,16 +28,28 @@ const Home = () => {
         <div class='skill-box'>
           <div class='skill-flex-container'>
             <div class='skill-flex-container-text'>
+              <img
+                src='https://www.emoji.co.uk/files/apple-emojis/objects-ios/596-personal-computer.png'
+                alt='Example'
+              />
               <h3>Frontend</h3>
-              <p>This is the test number one.</p>
+              <p>This is a test number one.</p>
             </div>
             <div class='skill-flex-container-text'>
+              <img
+                src='https://em-content.zobj.net/source/apple/81/hammer-and-wrench_1f6e0.png'
+                alt='Example'
+              />
               <h3>Backend</h3>
-              <p>This is the test number two.</p>
+              <p>This is a test number two.</p>
             </div>
             <div class='skill-flex-container-text'>
+              <img
+                src='https://www.emoji.co.uk/files/apple-emojis/objects-ios/763-lower-left-fountain-pen.png'
+                alt='Example'
+              />
               <h4>UI/UX</h4>
-              <p>This is the test number three.</p>
+              <p>This is a test number three.</p>
             </div>
           </div>
         </div>
