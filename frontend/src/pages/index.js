@@ -55,7 +55,7 @@ const Home = () => {
         </div>
       </main>
       <footer>
-        <p>&copy; 2024 My Portfolio</p>
+        <p>&copy; 2024 Vilma Mäkinen. All rights reserved. </p>
       </footer>
     </div>
   );
