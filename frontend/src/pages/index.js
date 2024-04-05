@@ -21,11 +21,21 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <div class='skill-title'>
+          <h2>Specialities</h2>
+          <p>This is an another test.</p>
+        </div>
         <div class='skill-box'>
           <div class='skill-flex-container'>
-            <div>Test1</div>
-            <div>Test2</div>
-            <div>Test3</div>
+            <div class='skill-flex-container-text'>
+              <p>Test1</p>
+            </div>
+            <div class='skill-flex-container-text'>
+              <p>Test2</p>
+            </div>
+            <div class='skill-flex-container-text'>
+              <p>Test3</p>
+            </div>
           </div>
         </div>
       </main>
