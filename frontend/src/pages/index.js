@@ -17,7 +17,7 @@ const Home = () => {
             <div class='info-flex-container-text'>
               <h1>A Software Developer</h1>
               <p>This is a test.</p>
-              <button id='info-button'>Contact Me</button>
+              <button class='button'>Contact Me</button>
             </div>
           </div>
         </div>
