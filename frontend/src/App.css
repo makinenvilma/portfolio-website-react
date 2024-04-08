@@ -16,14 +16,3 @@ header {
 main {
   color: #221e2c;
 }
-
-/* Footer styles */
-footer {
-  background-color: #fefefe;
-  color: #8e8e8e;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  padding: 20px;
-}
