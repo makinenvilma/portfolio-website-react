@@ -10,9 +10,6 @@ const Contact = () => {
       <main>
         <p>This is a test.</p>
       </main>
-      <footer>
-        <p>&copy; 2024 My Portfolio</p>
-      </footer>
     </div>
   );
 };

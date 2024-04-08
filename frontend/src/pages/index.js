@@ -54,9 +54,6 @@ const Home = () => {
           </div>
         </div>
       </main>
-      <footer>
-        <p>&copy; 2024 Vilma Mäkinen. All rights reserved. </p>
-      </footer>
     </div>
   );
 };
