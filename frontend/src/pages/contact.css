@@ -1,0 +1,60 @@
+/* Skill title styles */
+.contact-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 40px;
+}
+
+.contact-title p {
+  color: #8e8e8e;
+}
+
+/* Skill box styles */
+.contact-flex-container {
+  display: flex;
+  flex-direction: horizontal;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.contact-flex-container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: 300px;
+  background-color: #fafafa;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px #00000014;
+}
+
+.contact-flex-container-text p {
+  color: #8e8e8e;
+}
+
+.contact-flex-container-link p {
+  color: blue;
+  background-color: aqua;
+}
+
+/* Media queries */
+@media screen and (max-width: 780px) {
+  /* Contact box styles */
+  .contact-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
