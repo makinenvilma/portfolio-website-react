@@ -39,7 +39,11 @@ const Home = () => {
         </div>
         <div class='skill-title'>
           <h2>Specialities</h2>
-          <p>This is an another test.</p>
+          <p>
+            As a specialist in many fields, I bring a comprehensive skill set to
+            every project I undertake ensuring thoroughness and excellence in
+            every aspect of the project.
+          </p>
         </div>
         <div class='skill-box'>
           <div class='skill-flex-container'>

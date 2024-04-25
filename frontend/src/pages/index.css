@@ -102,6 +102,7 @@
 
 .skill-title p {
   color: #8e8e8e;
+  max-width: 500px;
 }
 
 /* Skill box styles */
@@ -158,6 +159,15 @@
     gap: 10px;
   }
 
+  /* Static box styles */
+  .static-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
   /* Skill box styles */
   .skill-flex-container {
     display: flex;
@@ -167,14 +177,5 @@
     gap: 30px;
     padding-top: 30px;
     padding-bottom: 60px;
-  }
-
-  /* Static box styles */
-  .static-flex-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
   }
 }
