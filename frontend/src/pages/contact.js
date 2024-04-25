@@ -16,21 +16,27 @@ const Contact = () => {
               <h3>Linkedin</h3>
               <p>This is a test number one.</p>
               <div class='contact-flex-container-link'>
-                <p>Test1</p>
+                <p>
+                  Linkedin <i class='arrow right'></i>
+                </p>
               </div>
             </div>
             <div class='contact-flex-container-text'>
               <h3>Github</h3>
               <p>This is a test number two.</p>
               <div class='contact-flex-container-link'>
-                <p>Test1</p>
+                <p>
+                  Github <i class='arrow right'></i>
+                </p>
               </div>
             </div>
             <div class='contact-flex-container-text'>
               <h3>Email</h3>
               <p>This is a test number three.</p>
               <div class='contact-flex-container-link'>
-                <p>Test1</p>
+                <p>
+                  Email <i class='arrow right'></i>
+                </p>
               </div>
             </div>
           </div>
