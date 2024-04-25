@@ -6,7 +6,7 @@ const Contact = () => {
     <div>
       <div class='header'>
         <img
-          src='https://cdn.discordapp.com/attachments/1083357483764039681/1233050406624432230/Untitled_1.png?ex=662baf2d&is=662a5dad&hm=d9838bdee16dbe109e8eb9eac5fdfc6b444e528411d3fc7b1e012a628a8f00eb&'
+          src='https://cdn.discordapp.com/attachments/1005810469275193476/1233104643769499770/Untitled_2.png?ex=662be1b1&is=662a9031&hm=1ffe0a009c0ab6048c67874bbd6a78ca5077a24d0cd9fcdc184d39a757ee7339&'
           alt='Header'
         ></img>
       </div>
