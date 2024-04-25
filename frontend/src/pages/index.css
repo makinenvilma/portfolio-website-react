@@ -72,13 +72,31 @@
   border-radius: 10px;
 }
 
+/* Static box styles */
+.static-flex-container {
+  display: flex;
+  flex-direction: horizontal;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.static-flex-container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Skill title styles */
 .skill-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
   padding-top: 40px;
 }
 
@@ -93,7 +111,7 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
-  padding-top: 40px;
+  padding-top: 30px;
   padding-bottom: 60px;
 }
 
@@ -147,7 +165,16 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding-top: 60px;
+    padding-top: 30px;
     padding-bottom: 60px;
+  }
+
+  /* Static box styles */
+  .static-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
   }
 }
