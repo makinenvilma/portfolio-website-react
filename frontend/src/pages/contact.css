@@ -12,12 +12,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 20px;
   padding-top: 40px;
 }
 
 .contact-title p {
   color: #8e8e8e;
+  max-width: 500px;
 }
 
 /* Skill box styles */
@@ -54,7 +56,7 @@
   text-align: center;
   width: 300px;
   height: 50px;
-  color: #838383;
+  color: #a6a6a6;
   background-color: #f4f4f4;
   border-bottom-left-radius: 18px;
   border-bottom-right-radius: 18px;
@@ -62,7 +64,7 @@
 }
 
 .arrow {
-  border: solid #838383;
+  border: solid #a6a6a6;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;

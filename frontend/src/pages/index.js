@@ -24,16 +24,16 @@ const Home = () => {
         <div class='static-box'>
           <div class='static-flex-container'>
             <div class='static-flex-container-text'>
-              <h1>657</h1>
-              <p>Requests</p>
+              <h1>8</h1>
+              <p>Contributions</p>
             </div>
             <div class='static-flex-container-text'>
               <h1>2.5</h1>
               <p>Years of experience</p>
             </div>
             <div class='static-flex-container-text'>
-              <h1>8</h1>
-              <p>Projects</p>
+              <h1>657</h1>
+              <p>Contributions</p>
             </div>
           </div>
         </div>
@@ -48,26 +48,32 @@ const Home = () => {
         <div class='skill-box'>
           <div class='skill-flex-container'>
             <div class='skill-flex-container-text'>
-              <img
-                src='https://www.emoji.co.uk/files/apple-emojis/objects-ios/596-personal-computer.png'
-                alt='Example'
-              />
+              <span class='dot'>
+                <img
+                  src='https://www.emoji.co.uk/files/apple-emojis/objects-ios/596-personal-computer.png'
+                  alt='Example'
+                />
+              </span>
               <h3>Frontend</h3>
               <p>This is a test number one.</p>
             </div>
             <div class='skill-flex-container-text'>
-              <img
-                src='https://em-content.zobj.net/source/apple/81/hammer-and-wrench_1f6e0.png'
-                alt='Example'
-              />
+              <span class='dot'>
+                <img
+                  src='https://em-content.zobj.net/source/apple/81/hammer-and-wrench_1f6e0.png'
+                  alt='Example'
+                />
+              </span>
               <h3>Backend</h3>
               <p>This is a test number two.</p>
             </div>
             <div class='skill-flex-container-text'>
-              <img
-                src='https://www.emoji.co.uk/files/apple-emojis/objects-ios/763-lower-left-fountain-pen.png'
-                alt='Example'
-              />
+              <span class='dot'>
+                <img
+                  src='https://www.emoji.co.uk/files/apple-emojis/objects-ios/763-lower-left-fountain-pen.png'
+                  alt='Example'
+                />
+              </span>
               <h4>UI/UX</h4>
               <p>This is a test number three.</p>
             </div>

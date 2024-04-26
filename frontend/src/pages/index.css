@@ -96,6 +96,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 10px;
   padding-top: 40px;
 }
@@ -127,6 +128,7 @@
   background-color: #fafafa;
   padding: 40px;
   border-radius: 18px;
+
   box-shadow: 2px 4px 12px #00000014;
 }
 
@@ -134,7 +136,21 @@
   color: #8e8e8e;
 }
 
-.skill-flex-container-text img {
+/* Skill box dot styles */
+.dot {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle, #f9f9f9 10%, #ddd 70%, #f9f9f9 100%);
+  background: linear-gradient(45deg, #f3f3f3 20%, #e0e0e0 50%, #f3f3f3 100%);
+  border: 2px solid #eaeaea;
+}
+
+.dot img {
   width: 30px;
   height: auto;
 }

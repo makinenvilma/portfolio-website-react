@@ -12,8 +12,11 @@ const Contact = () => {
       </div>
       <main>
         <div class='contact-title'>
-          <h2>Contact Me</h2>
-          <p>This is a test.</p>
+          <h1>Contact Me</h1>
+          <p>
+            Don't be afraid to get touch with me for any queries,
+            collaborations, or simply to say hello! I am always happy to help.
+          </p>
         </div>
         <div class='contact-box'>
           <div class='contact-flex-container'>
