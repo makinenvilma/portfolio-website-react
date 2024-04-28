@@ -50,8 +50,8 @@ const Home = () => {
             <div class='skill-flex-container-text'>
               <span class='dot'>
                 <img
-                  src='https://www.emoji.co.uk/files/apple-emojis/objects-ios/596-personal-computer.png'
-                  alt='Example'
+                  src='https://em-content.zobj.net/source/skype/289/laptop_1f4bb.png'
+                  alt='Frontend'
                 />
               </span>
               <h3>Frontend</h3>
@@ -60,8 +60,8 @@ const Home = () => {
             <div class='skill-flex-container-text'>
               <span class='dot'>
                 <img
-                  src='https://em-content.zobj.net/source/apple/81/hammer-and-wrench_1f6e0.png'
-                  alt='Example'
+                  src='https://em-content.zobj.net/source/toss-face/330/hammer-and-wrench_1f6e0-fe0f.png'
+                  alt='Backend'
                 />
               </span>
               <h3>Backend</h3>
@@ -70,8 +70,8 @@ const Home = () => {
             <div class='skill-flex-container-text'>
               <span class='dot'>
                 <img
-                  src='https://www.emoji.co.uk/files/apple-emojis/objects-ios/763-lower-left-fountain-pen.png'
-                  alt='Example'
+                  src='https://em-content.zobj.net/source/skype/289/pen_1f58a-fe0f.png'
+                  alt='UI/UX'
                 />
               </span>
               <h4>UI/UX</h4>
