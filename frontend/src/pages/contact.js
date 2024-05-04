@@ -54,11 +54,6 @@ const Contact = () => {
             <div class='text-flex-container-text'>
               <p>Test1</p>
             </div>
-            <div
-              class='text-flex-container-separator'
-              aria-hidden='true'
-              role='presentation'
-            ></div>
             <div class='text-flex-container-text'>
               <p>Test2</p>
             </div>
