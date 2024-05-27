@@ -52,10 +52,18 @@ const Contact = () => {
         <div class='text-box'>
           <div class='text-flex-container'>
             <div class='text-flex-container-text'>
-              <p>Test1</p>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s.
+              </p>
             </div>
             <div class='text-flex-container-text'>
-              <p>Test2</p>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s.
+              </p>
             </div>
           </div>
         </div>
