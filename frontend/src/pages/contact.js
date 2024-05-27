@@ -15,7 +15,7 @@ const Contact = () => {
           <h1>Contact Me</h1>
           <p>
             Don't be afraid to get touch with me for any queries,
-            collaborations, or simply to say hello! I am always happy to help.
+            collaborations, or simply to say hello! I am always happy to chat.
           </p>
         </div>
         <div class='contact-box'>

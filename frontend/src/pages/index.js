@@ -1,6 +1,9 @@
 import React from 'react';
 import './index.css';
-import index_image from '../assets/images/index_image.png';
+import index_dog_image from '../assets/images/index_dog_image.png';
+import index_hammer_icon from '../assets/icons/index_hammer_icon.png';
+import index_laptop_icon from '../assets/icons/index_laptop_icon.png';
+import index_pencil_icon from '../assets/icons/index_pencil_icon.png';
 
 const Home = () => {
   return (
@@ -10,7 +13,7 @@ const Home = () => {
         <div class='info-box'>
           <div class='info-flex-container'>
             <div class='info-flex-container-image'>
-              <img src={index_image} alt='Me' />
+              <img src={index_dog_image} alt='Dog' />
             </div>
             <div class='info-flex-container-text'>
               <h1>A Software Developer</h1>
@@ -47,30 +50,21 @@ const Home = () => {
           <div class='skill-flex-container'>
             <div class='skill-flex-container-text'>
               <span class='dot'>
-                <img
-                  src='https://em-content.zobj.net/source/skype/289/laptop_1f4bb.png'
-                  alt='Frontend'
-                />
+                <img src={index_laptop_icon} alt='Frontend' />
               </span>
               <h3>Frontend</h3>
               <p>This is a test number one.</p>
             </div>
             <div class='skill-flex-container-text'>
               <span class='dot'>
-                <img
-                  src='https://em-content.zobj.net/source/toss-face/330/hammer-and-wrench_1f6e0-fe0f.png'
-                  alt='Backend'
-                />
+                <img src={index_hammer_icon} alt='Backend' />
               </span>
               <h3>Backend</h3>
               <p>This is a test number two.</p>
             </div>
             <div class='skill-flex-container-text'>
               <span class='dot'>
-                <img
-                  src='https://em-content.zobj.net/source/skype/289/pen_1f58a-fe0f.png'
-                  alt='UI/UX'
-                />
+                <img src={index_pencil_icon} alt='UI/UX' />
               </span>
               <h4>UI/UX</h4>
               <p>This is a test number three.</p>
