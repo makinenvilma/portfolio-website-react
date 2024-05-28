@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Footer.module.css';
 import footer_linkedin_icon from '../../assets/icons/footer_linkedin_icon.png';
+import footer_github_icon from '../../assets/icons/footer_github_icon.png';
 
 const Footer = () => {
   return (
@@ -11,10 +12,7 @@ const Footer = () => {
             <img src={footer_linkedin_icon} alt='LinkedIn' />
           </div>
           <div className={styles['info-flex-container-icon']}>
-            <img src={footer_linkedin_icon} alt='LinkedIn' />
-          </div>
-          <div className={styles['info-flex-container-icon']}>
-            <img src={footer_linkedin_icon} alt='LinkedIn' />
+            <img src={footer_github_icon} alt='GitHub' />
           </div>
         </div>
       </div>
