@@ -114,7 +114,7 @@
   align-items: center;
   gap: 40px;
   padding-top: 30px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .skill-flex-container-text {
@@ -190,6 +190,6 @@
     align-items: center;
     gap: 30px;
     padding-top: 30px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
   }
 }
