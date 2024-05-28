@@ -8,3 +8,18 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+/* Footer icon styles */
+.social-media-flex-container {
+  display: flex;
+  flex-direction: horizontal;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+  gap: 5px;
+}
+
+.social-media-flex-container img {
+  width: 35px;
+  height: auto;
+}
