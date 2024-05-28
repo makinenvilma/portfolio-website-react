@@ -121,7 +121,7 @@
   /* Text box styles */
   .text-flex-container {
     display: flex;
-    flex-direction: horizontal;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -129,4 +129,14 @@
   }
 
   /* Text box divider */
+  .text-flex-container::before {
+    align-self: stretch;
+    content: '';
+    border: 1px solid #d8d8d8;
+    width: 20%;
+    align-self: center;
+  }
+  .text-flex-container .text-flex-container-text:first-child {
+    order: -1;
+  }
 }
