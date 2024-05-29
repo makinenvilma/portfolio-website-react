@@ -182,6 +182,12 @@
     gap: 40px;
   }
 
+  /* Skill title styles */
+  .skill-title p {
+    max-width: 300px;
+    min-width: 300px;
+  }
+
   /* Skill box styles */
   .skill-flex-container {
     display: flex;
