@@ -6,6 +6,7 @@ import Home from './pages';
 import About from './pages/about';
 import Projects from './pages/projects';
 import Contact from './pages/contact';
+import Divider from './components/divider/Divider';
 import Footer from './components/footer/Footer';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route exact path='/projects' element={<Projects />} />
         <Route exact path='/contact' element={<Contact />} />
       </Routes>
+      <Divider /> {/* Add Divider comonent */}
       <Footer /> {/* Add Footer component */}
     </Router>
   );
