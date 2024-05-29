@@ -1,5 +1,5 @@
 /* Footer styles */
-footer {
+.footer {
   background-color: #fefefe;
   color: #8e8e8e;
   position: relative;
@@ -10,16 +10,72 @@ footer {
 }
 
 /* Footer icon styles */
-.social-media-flex-container {
+.socialMediaFlexContainer {
   display: flex;
-  flex-direction: horizontal;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   padding-bottom: 5px;
   gap: 5px;
 }
 
-.social-media-flex-container img {
+.socialMediaFlexContainer img {
   width: 35px;
   height: auto;
+}
+
+/* Text box styles */
+.textFlexContainer {
+  color: #8e8e8e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.textFlexContainerText {
+  position: relative;
+  text-align: center;
+  max-width: 300px;
+  min-width: 300px;
+}
+
+/* Text box divider */
+.textFlexContainer::before {
+  align-self: stretch;
+  content: '';
+  border: 1px solid #d8d8d8;
+}
+
+.textFlexContainer .textFlexContainerText:first-child {
+  order: -1;
+}
+
+/* Media queries */
+@media screen and (max-width: 780px) {
+  /* Text box styles */
+  .textFlexContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  /* Text box divider */
+  .textFlexContainer::before {
+    align-self: stretch;
+    content: '';
+    border: 1px solid #d8d8d8;
+    width: 20%;
+    align-self: center;
+  }
+
+  .textFlexContainer .textFlexContainerText:first-child {
+    order: -1;
+  }
 }

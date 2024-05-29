@@ -6,12 +6,30 @@ import footer_github_icon from '../../assets/icons/footer_github_icon.png';
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <div className={styles['social-media-box']}>
-        <div className={styles['social-media-flex-container']}>
-          <div className={styles['info-flex-container-icon']}>
+      <div className={styles.textBox}>
+        <div className={styles.textFlexContainer}>
+          <div className={styles.textFlexContainerText}>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+          </div>
+          <div className={styles.textFlexContainerText}>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className={styles.socialMediaBox}>
+        <div className={styles.socialMediaFlexContainer}>
+          <div className={styles.infoFlexContainerIcon}>
             <img src={footer_linkedin_icon} alt='LinkedIn' />
           </div>
-          <div className={styles['info-flex-container-icon']}>
+          <div className={styles.infoFlexContainerIcon}>
             <img src={footer_github_icon} alt='GitHub' />
           </div>
         </div>
