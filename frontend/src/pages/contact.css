@@ -30,7 +30,7 @@
   align-items: center;
   gap: 40px;
   padding-top: 30px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .contact-flex-container-text {
@@ -86,28 +86,5 @@
     align-items: center;
     gap: 30px;
     padding-top: 30px;
-    padding-bottom: 60px;
-  }
-
-  /* Text box styles */
-  .text-flex-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 20px;
-  }
-
-  /* Text box divider */
-  .text-flex-container::before {
-    align-self: stretch;
-    content: '';
-    border: 1px solid #d8d8d8;
-    width: 20%;
-    align-self: center;
-  }
-  .text-flex-container .text-flex-container-text:first-child {
-    order: -1;
   }
 }
