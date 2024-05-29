@@ -1,14 +1,12 @@
 import React from 'react';
 import './contact.css';
+import contact_test_banner from '../assets/images/contact_test_banner.png';
 
 const Contact = () => {
   return (
     <div>
       <div class='header'>
-        <img
-          src='https://cdn.discordapp.com/attachments/1005810469275193476/1233104643769499770/Untitled_2.png?ex=662be1b1&is=662a9031&hm=1ffe0a009c0ab6048c67874bbd6a78ca5077a24d0cd9fcdc184d39a757ee7339&'
-          alt='Header'
-        ></img>
+        <img src={contact_test_banner} alt='Header' />
       </div>
       <main>
         <div class='contact-title'>
