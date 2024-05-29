@@ -76,35 +76,6 @@
   -webkit-transform: rotate(-45deg);
 }
 
-/* Text box styles */
-.text-flex-container {
-  color: #8e8e8e;
-  display: flex;
-  flex-direction: horizontal;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 20px;
-  padding-bottom: 40px;
-}
-
-.text-flex-container-text {
-  position: relative;
-  text-align: center;
-  max-width: 300px;
-  min-width: 300px;
-}
-
-/* Text box divider */
-.text-flex-container::before {
-  align-self: stretch;
-  content: '';
-  border: 1px solid #d8d8d8;
-}
-.text-flex-container .text-flex-container-text:first-child {
-  order: -1;
-}
-
 /* Media queries */
 @media screen and (max-width: 780px) {
   /* Contact box styles */
