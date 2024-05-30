@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Footer.module.css';
-import footer_linkedin_icon from '../../assets/icons/footer_linkedin_icon.png';
-import footer_github_icon from '../../assets/icons/footer_github_icon.png';
+import footer_linkedin_icon3 from '../../assets/icons/footer_linkedin_icon3.png';
+import footer_github_icon3 from '../../assets/icons/footer_github_icon3.png';
 
 const Footer = () => {
   return (
@@ -9,14 +9,14 @@ const Footer = () => {
       <div className={styles.socialMediaBox}>
         <div className={styles.socialMediaFlexContainer}>
           <div className={styles.infoFlexContainerIcon}>
-            <img src={footer_linkedin_icon} alt='LinkedIn' />
+            <img src={footer_linkedin_icon3} alt='LinkedIn' />
           </div>
           <div className={styles.infoFlexContainerIcon}>
-            <img src={footer_github_icon} alt='GitHub' />
+            <img src={footer_github_icon3} alt='GitHub' />
           </div>
         </div>
       </div>
-      <p>&copy; 2024 Vilma Mäkinen. All rights reserved. </p>
+      <p>2024 Vilma Mäkinen. All rights reserved. </p>
     </footer>
   );
 };
