@@ -1,12 +1,12 @@
 import React from 'react';
 import './contact.css';
-import contact_test_banner from '../assets/images/contact_test_banner.png';
+import contact_dog_banner from '../assets/images/contact_dog_banner.png';
 
 const Contact = () => {
   return (
     <div>
       <div class='header'>
-        <img src={contact_test_banner} alt='Header' />
+        <img src={contact_dog_banner} alt='Banner' />
       </div>
       <main>
         <div class='contact-title'>

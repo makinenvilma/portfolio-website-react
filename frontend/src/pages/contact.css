@@ -80,7 +80,7 @@
 @media screen and (max-width: 780px) {
   /* Contact title styles */
   .contact-title p {
-    max-width: 300px;
+    max-width: 350px;
     min-width: 300px;
   }
 
