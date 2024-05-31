@@ -1,0 +1,43 @@
+/* About me box styles */
+.about-me-flex-container {
+  display: flex;
+  background-color: #fafafa;
+  flex-direction: horizontal;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 60px;
+}
+
+.about-me-flex-container-text h3 {
+  color: #8e8e8e;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about-me-flex-container-text p {
+  color: #8e8e8e;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Media queries */
+@media screen and (max-width: 780px) {
+  /* About me box styles */
+  .about-me-flex-container {
+    display: flex;
+    background-color: #fafafa;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .about-me-flex-container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
