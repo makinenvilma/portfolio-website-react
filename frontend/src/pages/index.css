@@ -150,12 +150,12 @@
   background-color: #fafafa;
   padding: 40px;
   border-radius: 18px;
-
   box-shadow: 2px 4px 12px #00000014;
 }
 
 .skill-flex-container-text p {
   color: #8e8e8e;
+  text-align: center;
 }
 
 /* Skill box dot styles */

@@ -59,21 +59,30 @@ const Home = () => {
                 <img src={index_laptop_icon} alt='Frontend' />
               </span>
               <h3>Frontend</h3>
-              <p>This is a test number one.</p>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
             </div>
             <div class='skill-flex-container-text'>
               <span class='dot'>
                 <img src={index_hammer_icon} alt='Backend' />
               </span>
               <h3>Backend</h3>
-              <p>This is a test number two.</p>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
             </div>
             <div class='skill-flex-container-text'>
               <span class='dot'>
                 <img src={index_pencil_icon} alt='UI/UX' />
               </span>
               <h4>UI/UX</h4>
-              <p>This is a test number three.</p>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
             </div>
           </div>
         </div>
