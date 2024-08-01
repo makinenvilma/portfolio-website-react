@@ -17,6 +17,11 @@
   padding-top: 40px;
 }
 
+.contact-title h1 {
+  font-size: 300%;
+  max-width: 500px;
+}
+
 .contact-title p {
   color: #8e8e8e;
   max-width: 500px;

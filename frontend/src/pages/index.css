@@ -95,6 +95,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-weight: bold;
+  font-size: 110%;
+}
+
+.static-flex-container-text p {
+  color: #8e8e8e;
 }
 
 /* Skill title styles */
@@ -106,6 +112,11 @@
   text-align: center;
   gap: 10px;
   padding-top: 20px;
+}
+
+.skill-title h2 {
+  font-size: 300%;
+  max-width: 500px;
 }
 
 .skill-title p {
