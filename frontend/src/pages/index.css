@@ -9,6 +9,10 @@
   padding-top: 60px;
 }
 
+.info-flex-container-text {
+  margin-bottom: 40px;
+}
+
 .info-flex-container-text h1 {
   font-size: 500%;
   max-width: 500px;
