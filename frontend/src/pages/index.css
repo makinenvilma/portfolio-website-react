@@ -19,7 +19,6 @@
 }
 
 .info-flex-container-text p {
-  color: #8e8e8e;
   margin-top: 20px;
   margin-bottom: 30px;
   max-width: 600px;
@@ -103,10 +102,6 @@
   font-size: 110%;
 }
 
-.static-flex-container-text p {
-  color: #8e8e8e;
-}
-
 /* Skill title styles */
 .skill-title {
   display: flex;
@@ -124,7 +119,6 @@
 }
 
 .skill-title p {
-  color: #8e8e8e;
   max-width: 500px;
 }
 
@@ -193,7 +187,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
+    margin-bottom: 0px;
   }
 
   .info-flex-container-text h1 {
@@ -221,6 +216,7 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
+    padding-top: 20px;
   }
 
   /* Skill title styles */
