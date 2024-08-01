@@ -17,7 +17,13 @@ const Home = () => {
             </div>
             <div class='info-flex-container-text'>
               <h1>A Software Developer</h1>
-              <p>This is a test.</p>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s. Lorem Ipsum is simply dummy text of
+                the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s.
+              </p>
               <button class='button'>Contact Me</button>
             </div>
           </div>

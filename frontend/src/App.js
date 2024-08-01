@@ -1,4 +1,5 @@
 import React from 'react';
+import Marquee from './components/marquee/Marquee';
 import Navbar from './components/navigation/Navbar';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import {Helmet} from 'react-helmet';
@@ -20,6 +21,7 @@ function App() {
           href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap'
         />
       </Helmet>
+      <Marquee /> {/* Add Marquee component*/}
       <Navbar /> {/* Render Navbar component */}
       <Routes>
         <Route exact path='/' element={<Home />} />
