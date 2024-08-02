@@ -1,14 +1,14 @@
 import React from 'react';
-import '../App.css';
+import './projects.css';
 
 const Projects = () => {
   return (
     <div>
-      <header>
-        <h1>Projects</h1>
-      </header>
+      <header></header>
       <main>
-        <p>This is a test.</p>
+        <div class='projects-box'>
+          <h1>ON CONSTRUCTION...</h1>
+        </div>
       </main>
     </div>
   );

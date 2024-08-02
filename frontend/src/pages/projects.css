@@ -1,5 +1,5 @@
-/* About me box styles */
-.about-me-box {
+/* Projects box styles */
+.projects-box {
   display: flex;
   background-color: #fafafa;
   flex-direction: horizontal;
@@ -9,16 +9,16 @@
   padding-top: 60px;
 }
 
-.about-me-box h1 {
-  font-size: 800%;
+.projects-box h1 {
   word-wrap: break-word;
+  font-size: 800%;
 }
 
 /* Media queries */
 @media screen and (max-width: 780px) {
-  /* About me box styles */
-  .about-me-box h1 {
-    font-size: 500%;
+  /* Projects box styles */
+  .projects-box h1 {
     word-wrap: break-word;
+    font-size: 500%;
   }
 }

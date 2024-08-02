@@ -29,7 +29,6 @@ function App() {
         <Route exact path='/projects' element={<Projects />} />
         <Route exact path='/contact' element={<Contact />} />
       </Routes>
-      <Divider /> {/* Add Divider component */}
       <Footer /> {/* Add Footer component */}
     </Router>
   );
