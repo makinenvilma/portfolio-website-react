@@ -23,7 +23,7 @@ const Contact = () => {
               <p>This is a test number one.</p>
               <div class='contact-flex-container-link'>
                 <p>
-                  Linkedin <i class='arrow right'></i>
+                  LinkedIn <i class='arrow right'></i>
                 </p>
               </div>
             </div>
@@ -32,7 +32,7 @@ const Contact = () => {
               <p>This is a test number two.</p>
               <div class='contact-flex-container-link'>
                 <p>
-                  Github <i class='arrow right'></i>
+                  GitHub <i class='arrow right'></i>
                 </p>
               </div>
             </div>

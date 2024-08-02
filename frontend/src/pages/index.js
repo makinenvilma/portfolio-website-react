@@ -36,7 +36,7 @@ const Home = () => {
             </div>
             <div class='static-flex-container-text'>
               <h1>2.5</h1>
-              <p>Years of experience</p>
+              <p>Years of Experience</p>
             </div>
             <div class='static-flex-container-text'>
               <h1>657</h1>

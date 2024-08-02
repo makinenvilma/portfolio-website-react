@@ -47,21 +47,19 @@
   gap: 10px;
   max-width: 300px;
   min-width: 300px;
-  background-color: #fafafa;
+  background-color: #fefefe;
   padding: 40px;
   padding-bottom: 0px;
   border-radius: 18px;
-  box-shadow: 2px 4px 12px #00000014;
+  border: 2px solid #221e2c;
 }
 
 .contact-flex-container-link p {
   text-align: center;
   width: 300px;
   height: 50px;
-  background-color: #f4f4f4;
-  border-bottom-left-radius: 18px;
-  border-bottom-right-radius: 18px;
   padding-top: 15px;
+  border-radius: 2px solid #221e2c;
 }
 
 .arrow {

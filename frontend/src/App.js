@@ -7,13 +7,14 @@ import Home from './pages';
 import About from './pages/about';
 import Projects from './pages/projects';
 import Contact from './pages/contact';
-import Divider from './components/divider/Divider';
 import Footer from './components/footer/Footer';
 
 function App() {
   return (
     <Router>
       <Helmet>
+        <title>Vilma Mäkinen</title>
+        <link rel='icon' href='#' type='image/icon' />
         <link rel='preconnect' href='https://fonts.googleapis.com' />
         <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
         <link

@@ -7,7 +7,7 @@ const Projects = () => {
       <header></header>
       <main>
         <div class='projects-box'>
-          <h1>ON CONSTRUCTION...</h1>
+          <h1>UNDER CONSTRUCTION...</h1>
         </div>
       </main>
     </div>

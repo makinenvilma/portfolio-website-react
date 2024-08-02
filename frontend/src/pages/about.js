@@ -7,7 +7,7 @@ const About = () => {
       <header></header>
       <main>
         <div class='about-me-box'>
-          <h1>ON CONSTRUCTION...</h1>
+          <h1>UNDER CONSTRUCTION...</h1>
         </div>
       </main>
     </div>
