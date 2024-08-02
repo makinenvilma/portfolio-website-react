@@ -1,9 +1,6 @@
 import React from 'react';
 import './index.css';
 import index_dog_image from '../assets/images/index_dog_image.png';
-import index_hammer_icon from '../assets/icons/index_hammer_icon.png';
-import index_laptop_icon from '../assets/icons/index_laptop_icon.png';
-import index_pencil_icon from '../assets/icons/index_pencil_icon.png';
 
 const Home = () => {
   return (
@@ -55,9 +52,6 @@ const Home = () => {
         <div class='skill-box'>
           <div class='skill-flex-container'>
             <div class='skill-flex-container-text'>
-              <span class='dot'>
-                <img src={index_laptop_icon} alt='Frontend' />
-              </span>
               <h3>Frontend</h3>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -65,9 +59,6 @@ const Home = () => {
               </p>
             </div>
             <div class='skill-flex-container-text'>
-              <span class='dot'>
-                <img src={index_hammer_icon} alt='Backend' />
-              </span>
               <h3>Backend</h3>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -75,9 +66,6 @@ const Home = () => {
               </p>
             </div>
             <div class='skill-flex-container-text'>
-              <span class='dot'>
-                <img src={index_pencil_icon} alt='UI/UX' />
-              </span>
               <h4>UI/UX</h4>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting

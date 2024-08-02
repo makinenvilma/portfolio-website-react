@@ -155,31 +155,14 @@
   gap: 10px;
   max-width: 300px;
   min-width: 300px;
-  background-color: #fafafa;
+  background-color: #fefefe;
   padding: 40px;
   border-radius: 18px;
-  box-shadow: 2px 4px 12px #00000014;
+  border: 2px solid #221e2c;
 }
 
 .skill-flex-container-text p {
   text-align: center;
-}
-
-/* Skill box dot styles */
-.dot {
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  display: inline-block;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #e8e8e8;
-}
-
-.dot img {
-  width: 30px;
-  height: auto;
 }
 
 /* Media queries tablet */
