@@ -11,14 +11,14 @@
 
 .about-me-box h1 {
   font-size: 800%;
-  word-wrap: break-word;
+  word-break: break-word; /* Changed to 'word-break' */
 }
 
 /* Media queries */
 @media screen and (max-width: 780px) {
   /* About me box styles */
   .about-me-box h1 {
-    font-size: 500%;
-    word-wrap: break-word;
+    text-align: left;
+    word-break: break-word; /* Ensure it applies in the media query as well */
   }
 }

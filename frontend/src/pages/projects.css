@@ -10,15 +10,15 @@
 }
 
 .projects-box h1 {
-  word-wrap: break-word;
   font-size: 800%;
+  word-break: break-word; /* Changed to 'word-break' */
 }
 
 /* Media queries */
 @media screen and (max-width: 780px) {
   /* Projects box styles */
   .projects-box h1 {
-    word-wrap: break-word;
-    font-size: 500%;
+    text-align: left;
+    word-break: break-word; /* Ensure it applies in the media query as well */
   }
 }
