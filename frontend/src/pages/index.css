@@ -7,6 +7,7 @@
   align-items: center;
   gap: 30px;
   padding-top: 60px;
+  color: #221e2c;
 }
 
 .info-flex-container-text {
@@ -91,6 +92,7 @@
   gap: 150px;
   padding-top: 40px;
   padding-bottom: 30px;
+  color: #221e2c;
 }
 
 .static-flex-container-text {
@@ -111,14 +113,25 @@
   text-align: center;
   gap: 10px;
   padding-top: 20px;
+  color: #221e2c;
 }
 
-.skill-title h2 {
-  font-size: 300%;
+.skill-title h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 600%;
   max-width: 500px;
 }
 
 .skill-title p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   max-width: 500px;
 }
 
@@ -131,6 +144,7 @@
   gap: 40px;
   padding-top: 30px;
   padding-bottom: 10px;
+  color: #221e2c;
 }
 
 .skill-flex-container-text {
@@ -148,7 +162,6 @@
 }
 
 .skill-flex-container-text p {
-  color: #8e8e8e;
   text-align: center;
 }
 
@@ -169,62 +182,8 @@
   height: auto;
 }
 
-/* Media queries */
-@media screen and (max-width: 780px) {
-  /* Info box styles */
-  .info-flex-container {
-    display: flex;
-    background-color: #fafafa;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding-top: 5px;
-  }
-
-  .info-flex-container-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    margin-bottom: 0px;
-  }
-
-  .info-flex-container-text h1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .info-flex-container-text p {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 20px;
-    max-width: 350px;
-  }
-
-  /* Static box styles */
-  .static-flex-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    padding-top: 20px;
-  }
-
-  /* Skill title styles */
-  .skill-title p {
-    max-width: 350px;
-    min-width: 300px;
-  }
-
+/* Media queries tablet */
+@media screen and (max-width: 1040px) {
   /* Skill box styles */
   .skill-flex-container {
     display: flex;
@@ -232,5 +191,86 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+  }
+
+  /* Media queries phone */
+  @media screen and (max-width: 780px) {
+    /* Info box styles */
+    .info-flex-container {
+      display: flex;
+      background-color: #fafafa;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      padding-top: 5px;
+    }
+
+    .info-flex-container-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      margin-bottom: 0px;
+    }
+
+    .info-flex-container-text h1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+      max-width: 350px;
+    }
+
+    .info-flex-container-text p {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+      margin-bottom: 20px;
+      max-width: 350px;
+    }
+
+    /* Static box styles */
+    .static-flex-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      padding-top: 20px;
+    }
+
+    /* Skill title styles */
+    .skill-title h1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      max-width: 350px;
+      font-size: 400%;
+    }
+
+    .skill-title p {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      max-width: 350px;
+    }
+
+    /* Skill box styles */
+    .skill-flex-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
   }
 }

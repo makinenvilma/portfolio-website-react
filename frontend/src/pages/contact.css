@@ -15,6 +15,7 @@
   text-align: center;
   gap: 20px;
   padding-top: 40px;
+  color: #221e2c;
 }
 
 .contact-title h1 {
@@ -35,6 +36,7 @@
   gap: 40px;
   padding-top: 30px;
   padding-bottom: 10px;
+  color: #221e2c;
 }
 
 .contact-flex-container-text {
@@ -52,15 +54,10 @@
   box-shadow: 2px 4px 12px #00000014;
 }
 
-.contact-flex-container-text p {
-  color: #8e8e8e;
-}
-
 .contact-flex-container-link p {
   text-align: center;
   width: 300px;
   height: 50px;
-  color: #a6a6a6;
   background-color: #f4f4f4;
   border-bottom-left-radius: 18px;
   border-bottom-right-radius: 18px;
@@ -68,7 +65,7 @@
 }
 
 .arrow {
-  border: solid #a6a6a6;
+  border: solid #221e2c;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
@@ -80,7 +77,20 @@
   -webkit-transform: rotate(-45deg);
 }
 
-/* Media queries */
+/* Media queries tablet */
+@media screen and (max-width: 1040px) {
+  /* Contact box styles */
+  .contact-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+  }
+}
+
+/* Media queries phone*/
 @media screen and (max-width: 780px) {
   /* Contact title styles */
   .contact-title p {
