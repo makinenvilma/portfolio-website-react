@@ -1,6 +1,6 @@
 /* Info box styles */
 .info-flex-container img {
-  width: 110%;
+  width: 140%;
 }
 
 .info-flex-container {
@@ -9,7 +9,7 @@
   flex-direction: horizontal;
   justify-content: center;
   align-items: center;
-  gap: 70px;
+  gap: 130px;
   padding-top: 60px;
   color: #221e2c;
 }
@@ -19,14 +19,15 @@
 }
 
 .info-flex-container-text h1 {
-  font-size: 500%;
-  max-width: 500px;
+  font-size: 700%;
+  max-width: 600px;
 }
 
 .info-flex-container-text p {
   margin-top: 20px;
   margin-bottom: 30px;
   max-width: 600px;
+  font-size: 120%;
 }
 
 /*Info box button styles */
@@ -44,6 +45,7 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   font-weight: bold;
+  font-size: 1.2em;
 }
 
 .button:before {
@@ -167,6 +169,7 @@
   padding: 40px;
   border-radius: 18px;
   border: 2px solid #221e2c;
+  font-size: 110%;
 }
 
 .skill-flex-container-text p {
@@ -176,6 +179,10 @@
 /* Media queries phone */
 @media screen and (max-width: 1040px) {
   /* Info box styles */
+  .info-flex-container img {
+    width: 110%;
+  }
+
   .info-flex-container {
     display: flex;
     background-color: #fafafa;
@@ -201,6 +208,7 @@
     justify-content: center;
     align-items: center;
     text-align: left;
+    font-size: 500%;
     max-width: 350px;
   }
 
@@ -216,6 +224,7 @@
 
   /* Info box button styles */
   .info-flex-container button {
+    /* align-self: flex-start; /* Aligns the button to the left */
     font-size: 1.2em;
   }
 

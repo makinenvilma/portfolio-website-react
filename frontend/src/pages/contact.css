@@ -19,7 +19,7 @@
 }
 
 .contact-title h1 {
-  font-size: 500%;
+  font-size: 600%;
   max-width: 500px;
 }
 
@@ -38,6 +38,7 @@
   padding-top: 30px;
   padding-bottom: 10px;
   color: #221e2c;
+  font-size: 110%;
 }
 
 .contact-flex-container-text {

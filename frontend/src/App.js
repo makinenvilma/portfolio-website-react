@@ -23,7 +23,7 @@ function App() {
         />
       </Helmet>
       <Marquee /> {/* Add Marquee component*/}
-      <Navbar /> {/* Render Navbar component */}
+      <Navbar /> {/* Add Navbar component */}
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route exact path='/about' element={<About />} />
