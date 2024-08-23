@@ -1,11 +1,15 @@
 /* Info box styles */
+.info-flex-container img {
+  width: 110%;
+}
+
 .info-flex-container {
   display: flex;
   background-color: #fafafa;
   flex-direction: horizontal;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 70px;
   padding-top: 60px;
   color: #221e2c;
 }
@@ -169,8 +173,82 @@
   text-align: center;
 }
 
-/* Media queries tablet */
+/* Media queries phone */
 @media screen and (max-width: 1040px) {
+  /* Info box styles */
+  .info-flex-container {
+    display: flex;
+    background-color: #fafafa;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 5px;
+  }
+
+  .info-flex-container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 0px;
+  }
+
+  .info-flex-container-text h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    max-width: 350px;
+  }
+
+  .info-flex-container-text p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 20px;
+    max-width: 350px;
+  }
+
+  /* Info box button styles */
+  .info-flex-container button {
+    font-size: 1.2em;
+  }
+
+  /* Static box styles */
+  .static-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 20px;
+  }
+
+  /* Skill title styles */
+  .skill-title h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 350px;
+    font-size: 400%;
+  }
+
+  .skill-title p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 350px;
+  }
+
   /* Skill box styles */
   .skill-flex-container {
     display: flex;
@@ -178,91 +256,5 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
-  }
-
-  /* Media queries phone */
-  @media screen and (max-width: 780px) {
-    /* Info box styles */
-    .info-flex-container {
-      display: flex;
-      background-color: #fafafa;
-      flex-direction: column-reverse;
-      justify-content: center;
-      align-items: center;
-      gap: 10px;
-      padding-top: 5px;
-    }
-
-    .info-flex-container-text {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 5px;
-      margin-bottom: 0px;
-    }
-
-    .info-flex-container-text h1 {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: left;
-      max-width: 350px;
-    }
-
-    .info-flex-container-text p {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: left;
-      margin-bottom: 20px;
-      max-width: 350px;
-    }
-
-    /* Info box button styles */
-    .info-flex-container button {
-      font-size: 1.2em;
-    }
-
-    /* Static box styles */
-    .static-flex-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 40px;
-      padding-top: 20px;
-    }
-
-    /* Skill title styles */
-    .skill-title h1 {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      max-width: 350px;
-      font-size: 400%;
-    }
-
-    .skill-title p {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      max-width: 350px;
-    }
-
-    /* Skill box styles */
-    .skill-flex-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 30px;
-    }
   }
 }
