@@ -22,7 +22,7 @@ function Navbar() {
           {/* logo */}
           <a href='/' className={`${styles.logo}`}>
             <img
-              src='https://cdn-icons-png.flaticon.com/512/46/46105.png'
+              src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Location_dot_black.svg/768px-Location_dot_black.svg.png'
               alt='Logo'
             />
           </a>
