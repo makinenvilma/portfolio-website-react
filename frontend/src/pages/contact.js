@@ -11,10 +11,7 @@ const Contact = () => {
       <main>
         <div class='contact-title'>
           <h1>Contact Me</h1>
-          <p>
-            Don't be afraid to get touch with me for any queries,
-            collaborations, or simply to say hello! I'm always happy to chat.
-          </p>
+          <p>Let's start our journey.</p>
         </div>
         <div class='contact-box'>
           <div class='contact-flex-container'>

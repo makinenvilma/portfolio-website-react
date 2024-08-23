@@ -45,7 +45,6 @@ a {
   align-items: center;
   gap: 60px;
   z-index: 99;
-  margin-top: 20px;
 }
 
 /* Media queries */
@@ -90,6 +89,7 @@ a {
     background-color: #fafafa;
     padding: 10px;
     z-index: 98;
+    margin-top: 20px;
   }
 
   .navMenu.active {
