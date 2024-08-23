@@ -100,8 +100,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 140%;
+}
+
+.static-flex-container-text h1 {
   font-weight: bold;
-  font-size: 110%;
 }
 
 /* Skill title styles */
