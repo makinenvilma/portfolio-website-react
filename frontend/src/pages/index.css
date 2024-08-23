@@ -91,7 +91,7 @@
   align-items: center;
   gap: 150px;
   padding-top: 40px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   color: #221e2c;
 }
 
@@ -215,6 +215,11 @@
       text-align: left;
       margin-bottom: 20px;
       max-width: 350px;
+    }
+
+    /* Info box button styles */
+    .info-flex-container button {
+      font-size: 1.2em;
     }
 
     /* Static box styles */
