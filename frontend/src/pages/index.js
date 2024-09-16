@@ -25,22 +25,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div class='static-box'>
-          <div class='static-flex-container'>
-            <div class='static-flex-container-text'>
-              <h1>8</h1>
-              <p>Projects</p>
-            </div>
-            <div class='static-flex-container-text'>
-              <h1>2.5</h1>
-              <p>Years of Experience</p>
-            </div>
-            <div class='static-flex-container-text'>
-              <h1>657</h1>
-              <p>Contributions</p>
-            </div>
-          </div>
-        </div>
         <div class='skill-title'>
           <h1>Specialities</h1>
           <p>One specialist for all your needs.</p>
