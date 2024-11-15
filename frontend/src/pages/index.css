@@ -152,6 +152,10 @@
   text-align: center;
 }
 
+.skill-flex-container-text h3 {
+  font-size: 150%;
+}
+
 /* Media queries phone */
 @media screen and (max-width: 1040px) {
   /* Info box styles */
