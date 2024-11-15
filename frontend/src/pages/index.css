@@ -1,6 +1,7 @@
 /* Info box styles */
 .info-flex-container img {
   width: 150%;
+  padding-right: 60px;
 }
 
 .info-flex-container {
@@ -161,6 +162,7 @@
   /* Info box styles */
   .info-flex-container img {
     width: 110%;
+    padding-right: 30px;
   }
 
   .info-flex-container {
