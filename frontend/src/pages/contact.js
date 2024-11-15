@@ -17,7 +17,7 @@ const Contact = () => {
           <div class='contact-flex-container'>
             <div class='contact-flex-container-text'>
               <h3>LinkedIn</h3>
-              <p>This is a test number one.</p>
+              <p>Get connected with me.</p>
               <div class='contact-flex-container-link'>
                 <p>
                   LinkedIn <i class='arrow right'></i>
@@ -26,7 +26,7 @@ const Contact = () => {
             </div>
             <div class='contact-flex-container-text'>
               <h3>GitHub</h3>
-              <p>This is a test number two.</p>
+              <p>Check out my projects.</p>
               <div class='contact-flex-container-link'>
                 <p>
                   GitHub <i class='arrow right'></i>
@@ -35,7 +35,7 @@ const Contact = () => {
             </div>
             <div class='contact-flex-container-text'>
               <h3>Email</h3>
-              <p>This is a test number three.</p>
+              <p>Hit me with a question.</p>
               <div class='contact-flex-container-link'>
                 <p>
                   Email <i class='arrow right'></i>
