@@ -14,7 +14,7 @@
 .marqueeContent {
   display: inline-block;
   padding-left: 100%;
-  animation: marquee 15s linear infinite;
+  animation: marquee 20s linear infinite;
   font-style: italic; /* Italicize for cursive effect */
   font-weight: bold; /* Making the text bold */
   color: #f4f4f4;
