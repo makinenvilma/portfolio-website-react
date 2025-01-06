@@ -16,12 +16,13 @@ const Home = () => {
             <div className='info-flex-container-text'>
               <h1>A Software Developer</h1>
               <p>
-                Hello! I'm Vilma. I create efficient, user-friendly applications
-                with a strong focus on aesthetics and clean, maintainable code.
-                I believe that great software isn't just about functionality -
-                it’s also about how it looks and feels. Whether working on
-                frontend interfaces or backend systems, I’m dedicated to
-                building solutions that are both elegant and robust.
+                Hello! I'm Vilma Mäkinen. I create efficient, user-friendly
+                applications with a strong focus on aesthetics and clean,
+                maintainable code. I believe that great software isn't just
+                about functionality - it’s also about how it looks and feels.
+                Whether working on frontend interfaces or backend systems, I’m
+                dedicated to building solutions that are both elegant and
+                robust.
               </p>
               <Link to='/contact'>
                 {' '}
