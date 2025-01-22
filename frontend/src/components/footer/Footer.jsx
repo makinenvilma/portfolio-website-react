@@ -9,10 +9,14 @@ const Footer = () => {
       <div className={styles.socialMediaBox}>
         <div className={styles.socialMediaFlexContainer}>
           <div className={styles.infoFlexContainerIcon}>
-            <img src={footer_linkedin_icon3} alt='LinkedIn' />
+            <a href="http://linkedin.com/in/vilma-m%C3%A4kinen-71027424b" target="_blank" rel="noopener noreferrer">
+              <img src={footer_linkedin_icon3} alt='LinkedIn' />
+            </a>
           </div>
           <div className={styles.infoFlexContainerIcon}>
-            <img src={footer_github_icon3} alt='GitHub' />
+            <a href="http://github.com/makinenvilma" target="_blank" rel="noopener noreferrer">
+              <img src={footer_github_icon3} alt='GitHub' />
+            </a>
           </div>
         </div>
       </div>
