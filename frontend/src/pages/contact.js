@@ -20,7 +20,9 @@ const Contact = () => {
               <p>Get connected with me.</p>
               <div class='contact-flex-container-link'>
                 <p>
-                  LinkedIn <i class='arrow right'></i>
+                  <a href='http://linkedin.com/in/vilma-m%C3%A4kinen-71027424b' target='_blank' rel='noopener noreferrer'>
+                    LinkedIn <i class='arrow right'></i>
+                  </a>
                 </p>
               </div>
             </div>
@@ -29,7 +31,9 @@ const Contact = () => {
               <p>Check out my projects.</p>
               <div class='contact-flex-container-link'>
                 <p>
-                  GitHub <i class='arrow right'></i>
+                  <a href='http://github.com/makinenvilma' target='_blank' rel='noopener noreferrer'>
+                    GitHub <i class='arrow right'></i>
+                  </a>
                 </p>
               </div>
             </div>
@@ -38,7 +42,9 @@ const Contact = () => {
               <p>Hit me with a question.</p>
               <div class='contact-flex-container-link'>
                 <p>
-                  Email <i class='arrow right'></i>
+                  <a href='mailto:vilma.makinen@tuni.fi'>
+                    Email <i class='arrow right'></i>
+                  </a>
                 </p>
               </div>
             </div>
