@@ -5,8 +5,7 @@ const Marquee = () => {
   return (
     <div className={styles.marqueeContainer}>
       <div className={styles.marqueeContent}>
-        ! ! ! This opportunity won't last forever - reach out TODAY and let's
-        make great things happen ! ! !
+      
       </div>
     </div>
   );
