@@ -5,10 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fefefe;
+  background-color: #221e2c; /* Dark background */
+  color: #e0e0e0; /* Light text color */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  color: #e0e0e0; /* Light code text color */
 }

@@ -1,0 +1,114 @@
+/* Header styles */
+.header {
+  width: 100%;
+}
+.header img {
+  width: 100%; /* Set width to 100% of parent container */
+}
+
+/* Contact title styles */
+.contact-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  padding-top: 30px;
+  color: #f0f0f0; /* Lighter text color for dark mode */
+}
+
+.contact-title h1 {
+  font-size: 600%;
+  max-width: 500px;
+}
+
+.contact-title p {
+  font-size: 200%;
+  max-width: 500px;
+}
+
+/* Skill box styles */
+.contact-flex-container {
+  display: flex;
+  flex-direction: horizontal;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: #f0f0f0; /* Lighter text color for dark mode */
+  font-size: 110%;
+}
+
+.contact-flex-container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: 300px;
+  min-width: 300px;
+  background-color: #333333; /* Darker background color for dark mode */
+  padding: 40px;
+  padding-bottom: 0px;
+  border-radius: 18px;
+  border: 2px solid #f0f0f0; /* Lighter border color for dark mode */
+}
+
+.contact-flex-container-link p {
+  text-align: center;
+  width: 300px;
+  height: 50px;
+  padding-top: 15px;
+  border-radius: 2px solid #f0f0f0; /* Lighter border color for dark mode */
+}
+
+.contact-flex-container-text h3 {
+  font-size: 150%;
+}
+
+.arrow {
+  border: solid #f0f0f0; /* Lighter arrow color for dark mode */
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-bottom: 1.1px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/* Media queries tablet */
+@media screen and (max-width: 1040px) {
+  /* Contact box styles */
+  .contact-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+  }
+}
+
+/* Media queries phone*/
+@media screen and (max-width: 780px) {
+  /* Contact title styles */
+  .contact-title p {
+    max-width: 350px;
+    min-width: 300px;
+  }
+
+  /* Contact box styles */
+  .contact-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+  }
+}

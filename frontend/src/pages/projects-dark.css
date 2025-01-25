@@ -1,0 +1,25 @@
+/* Projects box styles */
+.projects-box {
+  display: flex;
+  background-color: #1e1e1e; /* Dark background color */
+  flex-direction: horizontal;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 60px;
+  color: #fafafa; /* Light text color */
+}
+
+.projects-box h1 {
+  font-size: 800%;
+  word-break: break-word;
+}
+
+/* Media queries */
+@media screen and (max-width: 780px) {
+  /* Projects box styles */
+  .projects-box h1 {
+    text-align: left;
+    word-break: break-word;
+  }
+}

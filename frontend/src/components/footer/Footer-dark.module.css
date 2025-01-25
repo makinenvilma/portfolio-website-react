@@ -1,0 +1,27 @@
+/* Footer styles */
+.footer {
+  background-color: #221e2c;
+  color: #fefefe;
+  font-size: 14px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  padding-top: 60px;
+}
+
+/* Footer icon styles */
+.socialMediaFlexContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2px;
+  gap: 7px;
+}
+
+.socialMediaFlexContainer img {
+  width: 20px;
+  height: auto;
+}

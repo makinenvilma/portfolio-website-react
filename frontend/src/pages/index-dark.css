@@ -1,0 +1,242 @@
+/* Info box styles */
+.info-flex-container img {
+  width: 150%;
+  padding-right: 60px;
+}
+
+.info-flex-container {
+  display: flex;
+  background-color: #1e1e1e;
+  flex-direction: horizontal;
+  justify-content: center;
+  align-items: center;
+  gap: 130px;
+  padding-top: 30px;
+  color: #f0f0f0;
+}
+
+.info-flex-container-text {
+  margin-bottom: 40px;
+}
+
+.info-flex-container-text h1 {
+  font-size: 700%;
+  max-width: 600px;
+  line-height: 1.2;
+}
+
+.info-flex-container-text p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  max-width: 600px;
+  font-size: 120%;
+}
+
+/*Info box button styles */
+.info-flex-container button {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: #fefefe;
+  background: #444;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.button:before {
+  content: '';
+  background: linear-gradient(45deg, #ff00c8, #002bff, #7a00ff, #ff00c8);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #444;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+/* Skill title styles */
+.skill-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  padding-top: 30px;
+  color: #f0f0f0;
+}
+
+.skill-title h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 600%;
+  max-width: 500px;
+}
+
+.skill-title p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 200%;
+  max-width: 500px;
+}
+
+/* Skill box styles */
+.skill-flex-container {
+  display: flex;
+  flex-direction: horizontal;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: #f0f0f0;
+}
+
+.skill-flex-container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: 300px;
+  min-width: 300px;
+  background-color: #333;
+  padding: 40px;
+  border-radius: 18px;
+  border: 2px solid #f0f0f0;
+  font-size: 110%;
+}
+
+.skill-flex-container-text p {
+  text-align: center;
+}
+
+.skill-flex-container-text h3 {
+  font-size: 150%;
+}
+
+/* Media queries phone */
+@media screen and (max-width: 1040px) {
+  /* Info box styles */
+  .info-flex-container img {
+    width: 110%;
+    padding-right: 30px;
+  }
+
+  .info-flex-container {
+    display: flex;
+    background-color: #1e1e1e;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 5px;
+  }
+
+  .info-flex-container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 0px;
+  }
+
+  .info-flex-container-text h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 500%;
+    max-width: 350px;
+  }
+
+  .info-flex-container-text p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 20px;
+    max-width: 350px;
+  }
+
+  /* Info box button styles */
+  .info-flex-container button {
+    /* align-self: flex-start; /* Aligns the button to the left */
+    font-size: 1.2em;
+  }
+
+  /* Skill title styles */
+  .skill-title h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 350px;
+    font-size: 400%;
+  }
+
+  .skill-title p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 350px;
+  }
+
+  /* Skill box styles */
+  .skill-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+}
