@@ -1,0 +1,25 @@
+/* About me box styles */
+.about-me-box {
+  display: flex;
+  background-color: #fafafa;
+  flex-direction: horizontal;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 60px;
+  color: #221e2c;
+}
+
+.about-me-box h1 {
+  font-size: 800%;
+  word-break: break-word; /* Changed to 'word-break' */
+}
+
+/* Media queries */
+@media screen and (max-width: 780px) {
+  /* About me box styles */
+  .about-me-box h1 {
+    text-align: left;
+    word-break: break-word; /* Ensure it applies in the media query as well */
+  }
+}
