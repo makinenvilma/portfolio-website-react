@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p>2024 Vilma Mäkinen. All rights reserved. </p>
+      <p>2025 Vilma Mäkinen. All rights reserved. </p>
     </footer>
   );
 };
