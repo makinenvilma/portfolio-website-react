@@ -1,30 +1,46 @@
 .marqueeContainer {
   width: 100%;
   overflow: hidden;
-  background-image: linear-gradient(
-    90deg,
-    #885df1 0%,
-    #f65282 100%
-  ); /* Change to your desired background color */
-  white-space: nowrap;
+  background-image: linear-gradient(90deg, #885df1 0%, #f65282 100%);
   box-sizing: border-box;
-  padding: 10px 0; /* Adjust the top and bottom padding as needed */
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
 }
 
-.marqueeContent {
-  display: inline-block;
-  padding-left: 100%;
-  animation: marquee 40s linear infinite;
-  font-style: italic; /* Italicize for cursive effect */
-  font-weight: bold; /* Making the text bold */
-  color: #f4f4f4;
+.toggleSwitch {
+  width: 50px;
+  height: 25px;
+  background-color: #FAFAFA;
+  border-radius: 25px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-@keyframes marquee {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
+.slider {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 3px;
+  transform: translateY(-50%);
+  transition: left 0.3s ease, background-color 0.3s ease;
+}
+
+.dark {
+  background-color: black;
+}
+
+.active {
+  left: 27px;
+  background-color: white;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
 }
